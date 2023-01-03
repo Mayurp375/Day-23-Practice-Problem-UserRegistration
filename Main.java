@@ -19,5 +19,9 @@ public class Main {
 //Email-ID validation
         boolean emailID = Pattern.matches("^[a-zA-Z0-9][a-zA-Z-0-9_+]*([.][a-zA-Z0-9]+)?[@][a-zA-Z-0-9]+[.][a-z]{2,4}([.][a-zA-Z]{2,4})?$","abc.xyz@bl.co.in");
         System.out.println(emailID);
+
+//mobile number validation
+        boolean mobileNumber = Pattern.matches("^[+][91]{2}(\\s)[0-9]+","+91 7807811344");
+        System.out.println(mobileNumber);
     }
 }
