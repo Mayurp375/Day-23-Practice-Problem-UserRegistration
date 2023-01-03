@@ -23,5 +23,8 @@ public class Main {
 //mobile number validation
         boolean mobileNumber = Pattern.matches("^[+][91]{2}(\\s)[0-9]+","+91 7807811344");
         System.out.println(mobileNumber);
+
+//password validation
+        boolean password = Pattern.matches("[a-zA-Z09]{8,}","Pasword1");
     }
 }
