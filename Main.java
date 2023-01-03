@@ -25,7 +25,7 @@ public class Main {
         System.out.println(mobileNumber);
 
 //password validation
-        boolean password = Pattern.matches("[a-zA-Z09]{8,}","Pasword1");
+        boolean password = Pattern.matches("[a-zA-Z0-9]{8,}","Pasword1");
         System.out.println(password);
     }
 }
