@@ -14,5 +14,10 @@ public class Main {
 //lastName validation
         boolean lastName = Pattern.matches("[A-Za-z]{0,8}", "Polojwar");
         System.out.println(lastName);
+
+
+//Email-ID validation
+        boolean emailID = Pattern.matches("^[a-zA-Z0-9][a-zA-Z-0-9_+]*([.][a-zA-Z0-9]+)?[@][a-zA-Z-0-9]+[.][a-z]{2,4}([.][a-zA-Z]{2,4})?$","abc.xyz@bl.co.in");
+        System.out.println(emailID);
     }
 }
