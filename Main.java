@@ -26,5 +26,6 @@ public class Main {
 
 //password validation
         boolean password = Pattern.matches("[a-zA-Z09]{8,}","Pasword1");
+        System.out.println(password);
     }
 }
